@@ -50,11 +50,14 @@ export default function ReviewsNavbar() {
             </div>
 
             <div className='flex flex-row items-center' style={{gap: 10}}>
+                <Link href='/Reviews/:id'>
             <button 
                     className='bg-[#3366FF] py-2 px-4 lg:py-4 lg:px-10 rounded-md text-white text-base font-medium'
                     style={{fontFamily: 'Inter'}}>
                         LEAVE A REVIEW
                     </button>
+                    </Link>
+
                     <div className='border border-[#3366FF] h-[50px] w-[56px] text-center pt-3 rounded-md'>
                     <FiBookmark 
                     className='text-center mx-auto my-auto'
